@@ -15,9 +15,7 @@ jobs:
       - name: Update gist
         uses: ./
         env:
-          GH_TOKEN: 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
-#           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: a39765e5a17ab5f2a6669d5297262adb
           USER_ID: 570280786
-#           USER_TOKEN: ${{ secrets.USER_TOKEN }}
-          USER_TOKEN: fcb076105d330934a706a7712b68f8dcda829b47abbe43dbda1071841cfd179c993166e004087dd37839e62d22bec4a01672493a17967a3c4374fc3342f0a130f2d3a33991335837a0d2166338885bd7
+          USER_TOKEN: ${{ secrets.USER_TOKEN }}
