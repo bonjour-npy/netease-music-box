@@ -16,6 +16,6 @@ jobs:
         uses: ./
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 2a0488d20274fac3bfe10ec61fdb275a
+          GIST_ID: a39765e5a17ab5f2a6669d5297262adb
           USER_ID: 570280786
           USER_TOKEN: ${{ secrets.USER_TOKEN }}
